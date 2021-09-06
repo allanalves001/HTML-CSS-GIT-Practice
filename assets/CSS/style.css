@@ -1,0 +1,237 @@
+* {
+    margin: 0px;
+}
+
+.banner-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.marca-dagua {
+    position:absolute;
+    width:100%;
+    text-align:center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    z-index:999;
+    }
+
+.marca-dagua h1 {
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 0px 2px 3px black;
+}
+
+.marca-dagua a {
+    font-size: 20px;
+    text-shadow: 0px 2px 3px black;
+    margin-top: 8px;
+    text-decoration: none black;
+    color: #411765;
+}
+
+.container-menu-inicial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cep-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.cep-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.busca-cep {
+    color: #5D5D5D;
+    width: 150px;
+}
+
+.menu-inicial ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-inicial ul li {
+    list-style: none;
+}
+
+.menu-inicial ul li {
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: #411765;
+    font-size: 25px;
+    list-style: none;
+}
+
+.menu-inicial ul li a {
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.menu-inicial ul li a:hover {
+    background-color: #411765;
+    color: white;
+}
+
+.container-promocoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container-promocoes .promo-img {
+    padding: 3px;
+    text-decoration: none;
+}
+
+.container-secao-beneficios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.beneficio {
+    text-align: center;
+    border: #411765 solid 7px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
+    width: 300px;
+    background-color: #D8D8D8;
+}
+.beneficio-img {
+    width: 70px;
+    height: 70px;
+}
+
+.beneficio-titulo {
+    color: #F8B300;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+}
+
+.beneficio-descricao {
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.section-navegacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 1100px;
+}
+
+.categoria {
+    display: inline-block;
+    position:relative;
+}
+
+.navegacao-titulo {
+    position: absolute;
+    top: 50px;
+    right: 290px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 70px;
+    text-shadow: black 3px 3px 3px;
+}
+
+.navegacao-titulo-esportes {
+    position: absolute;
+    top: 50px;
+    right: 250px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 70px;
+    text-shadow: black 3px 3px 3px;
+}
+
+.navegacao-titulo-promocoes {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 70px;
+    text-shadow: black 3px 3px 3px;
+}
+
+.navegacao-img {
+    width: 500px;
+    height: 600px;
+    margin: 15px;
+    align-content: center;
+}
+
+.footer-container {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer-line-separator {
+    background-color: black;
+    width: 80%;
+    height: 1px;
+    margin-bottom: 30px;
+}
+
+.footer-content-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.footer-content {
+    font-family: 'Bebas Neue', cursive;  
+}
+
+.footer-content ul li {
+    list-style: none;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-content-title {
+    color: #411765;
+    font-size: 35px;
+}
+
+
